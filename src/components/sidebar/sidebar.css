@@ -1,0 +1,22 @@
+.sidebar {
+  height: 100%;
+  grid-area: sidebar;
+background-color: rgb(255, 157, 122);
+  border-left: 1px solid brown;
+}
+.download{
+
+  padding: 10px 50px;
+  margin: 30px  10px;
+  background-color: black;
+  color: white;
+  border: none;
+  outline:none;
+  font-size: 20px;
+  font-weight: 700;
+}
+.download:hover{
+  background: white;
+  color: black;
+  cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.sidebar__item > button {
+ border:none;
+ padding:20px 50px;
+ cursor:pointer;
+ background-color:transparent;
+ color:white;
+ width:stretch;
+ font-size:20px;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ position: relative;
+}
+.sidebar__item > button::after{
+    content: "";
+height: 2px;
+width: 70%;
+position: absolute;
+bottom: 0;
+left: 15%;
+background-color: rgb(214, 69, 43);
+}
+.sidebar__item:hover{
+    background-color: rgb(206, 86, 65);
+}
+.active{
+    background-color:rgb(243, 98, 54);
+}
